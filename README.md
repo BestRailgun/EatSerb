@@ -13,6 +13,6 @@ _🦌 网页小游戏 🥛_
 ## 简介
 小游戏：吃掉Serb
 
-Github Page:https://bestrailgun.github.io/EatSerb/index.html
+Github Page: https://bestrailgun.github.io/EatSerb/index.html
 
 Fork于大佬的仓库：https://github.com/arcxingye/EatKano
