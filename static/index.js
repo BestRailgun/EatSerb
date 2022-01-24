@@ -175,7 +175,7 @@ function SubmitResults() {
 function gameTime() {
     _gameTimeNum--;
     if (_gameTimeNum <= 0) {
-        GameTimeLayer.innerHTML = '&nbsp;&nbsp;&nbsp;&nbsp;时间到！';
+        GameTimeLayer.innerHTML = '&nbsp;&nbsp;&nbsp;&nbsp;锉刀时间到！';
         gameOver();
         GameLayerBG.className += ' flash';
         createjs.Sound.play("end");
@@ -341,10 +341,10 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '试着好好练一下？';
-    if (score <= 99) return 'TCL';
-    if (score <= 149) return 'TQL';
-    if (score <= 199) return '您';
+    if (score <= 49) return '不服你也练一个';
+    if (score <= 99) return '我们这是还原历史';
+    if (score <= 149) return '这一炮有一万个细节';
+    if (score <= 199) return '爱玩玩，不玩滚';
     return '人？';
 }
 
